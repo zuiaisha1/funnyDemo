@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mine="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.akeem.u_4.MainActivity"
+    >
+
+  <include layout="@layout/toolbar"/>
+
+  <android.support.v4.widget.DrawerLayout
+      android:id="@+id/main_drawerlayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.astuetz.PagerSlidingTabStripExtends
+        android:id="@+id/vp_tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        mine:pstsIndicatorColor="#c23232"
+        mine:pstsSelectedTabTextColor="#c23232"
+        mine:pstsSelectedTabTextSize="18sp"
+        mine:pstsTabTextColor="#c23232"
+        mine:pstsTabTextSize="14sp" />
+        >
+
+      <com.example.akeem.u_4.view.jazzyviewpager.JazzyViewPager
+          android:id="@+id/vp_main"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </com.example.akeem.u_4.view.jazzyviewpager.JazzyViewPager>
+</LinearLayout>
+      <!--<FrameLayout-->
+          <!--android:id="@+id/fl_left"-->
+          <!--android:background="#c23232"-->
+          <!--android:clickable="true"-->
+          <!--android:layout_gravity="start"-->
+          <!--android:layout_width="170dp"-->
+          <!--android:layout_height="match_parent"></FrameLayout>-->
+
+      <ListView
+          android:id="@+id/id_lv_left_menu"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="start"
+          android:paddingTop="0dp"
+          android:background="#ffffffff"
+          android:clipToPadding="false"
+          android:divider="@null"
+          android:listSelector="?attr/selectableItemBackground"
+          />
+  </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

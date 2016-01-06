@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\src\main\res"><file name="background_tab" path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\src\main\res\drawable\background_tab.xml" qualifiers="" type="drawable"/><file path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPadding"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+
+      <!--
+        1.tab的默认字体大小
+        2.tab的默认的字体颜色
+        3.tab选中时候的字体大小
+        4.tab选中时候的字体颜色-->
+
+        <attr format="dimension" name="pstsTabTextSize"/>
+        <attr format="color" name="pstsTabTextColor"/>
+
+        <attr format="dimension" name="pstsSelectedTabTextSize"/>
+        <attr format="color" name="pstsSelectedTabTextColor"/>
+    </declare-styleable></file><file path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\src\main\res\values\colors.xml" qualifiers=""><color name="background_tab_pressed">#6633B5E5</color></file></source><source path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\build\generated\res\rs\release"/><source path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\build\generated\res\resValues\release"/></dataSet><dataSet config="release"><source path="F:\Android\Training\android\android\gooleplay\googlePlay_day02\code\googlePlay_16\pagerSlidingTabStrip\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="dimension" name="pstsTabTextSize"/><attr format="color" name="pstsTabTextColor"/><attr format="dimension" name="pstsSelectedTabTextSize"/><attr format="color" name="pstsSelectedTabTextColor"/></declare-styleable></configuration></mergedItems></merger>
